@@ -1,0 +1,76 @@
+html {
+	width: 100%;
+	height: 100%;	
+}
+
+body {
+	background-color: #333;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	font-family: 'Open Sans', serif;
+}
+
+.wrapper {
+	background-color: #FFF;
+	box-shadow: 15px 15px 2px orange;
+	margin: 5% 20%;
+	padding: 50px;
+}
+
+section, header {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	min-height: 10%;
+}
+
+section {
+	min-height: 70%;
+	overflow: auto;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+form {
+	padding: 20px;
+}
+
+fieldset {
+	border: none;
+	padding: 10px 0px;
+}
+
+fieldset label {
+	float: left;
+	display: inline;
+	text-align: left;
+	padding-right: 30px;
+}
+
+
+input {
+	display: inline;
+	margin: 0px 0px 20px 20px;
+}
+
+#text {
+	border: none;
+	padding: 0;
+}
+
+#text label {
+
+	display: block;
+	width: 120px;
+	padding-right: 30px;
+}
+
+#text input {
+	display: block;
+}
+
+#submit {
+	margin: 0;
+}
+
+
